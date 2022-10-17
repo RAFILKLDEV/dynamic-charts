@@ -1,5 +1,6 @@
 body {
-  height: 100vh;
+  min-height: 100vh;
+
   background: linear-gradient(
     to bottom,
     rgb(92, 95, 97) 0%,
@@ -9,8 +10,6 @@ body {
 
 .App {
   text-align: center;
-  flex-flow: column;
-  justify-content: center;
   padding: 30px;
 }
 
@@ -24,16 +23,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid red 1px;
-  margin: 15px;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
 .Chart {
   display: flex;
   padding: 20px;
-  border: solid black 1px;
   width: 250px;
   margin: 20px;
+  background-color: rgba(240, 248, 255, 0.05);
 }
 
 .Chart-info {
@@ -48,4 +47,7 @@ body {
   width: 100px;
   height: 100px;
   margin-right: 20px;
+}
+
+.Container {
 }

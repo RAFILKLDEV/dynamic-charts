@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <h1 className="title">Project Dynamic Charts!</h1>
       <Search search={search} setSearch={setSearch} />
-      <div>
+      <div className="Container">
         Charts
         <div className="Charts">
           {bebidas.map((e, i) => {
