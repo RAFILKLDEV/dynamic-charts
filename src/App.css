@@ -2,8 +2,40 @@
   text-align: center;
   flex-flow: column;
   justify-content: center;
+  padding: 30px;
 }
 
 .Search-input {
   width: 500px;
+  margin: 15px;
+}
+
+.Charts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid red 1px;
+  margin: 15px;
+}
+
+.Chart {
+  display: flex;
+  padding: 20px;
+  border: solid black 1px;
+  width: 250px;
+  margin: 20px;
+}
+
+.Chart-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid black 1px;
+  width: 100px;
+}
+
+.Chart img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
 }
