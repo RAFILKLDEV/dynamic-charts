@@ -1,8 +1,8 @@
 import { useState } from "react";
-import "./App.css";
 import Charts from "./components/charts/Charts";
 import Search from "./components/search/Search";
 import bebidas from "./bebidas.json";
+import "./App.css";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <h1 className="Title">Project Dynamic Charts!</h1>
       <Search search={search} setSearch={setSearch} />
-      <div className="Container">
+      <div>
         <div className="Title">Charts</div>
         <div className="Charts">
           {bebidas.map((e, i) => {

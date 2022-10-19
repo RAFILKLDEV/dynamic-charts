@@ -1,25 +1,21 @@
-body {
-  min-height: 100vh;
-  max-height: 100%;
-
-  background: linear-gradient(
-    to bottom,
-    rgb(92, 95, 97) 0%,
-    rgb(12, 58, 92) 100%
-  );
-}
-
 .App {
   text-align: center;
   padding: 30px;
 }
 
-.Search-input {
-  min-width: 150px;
-  max-width: 500px;
-  width: 500px;
+.Search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 15px;
+}
+
+.Search-input {
+  display: flex;
   height: 30px;
+  padding: 0px;
+  width: 500px;
+  text-align: center;
 }
 
 .Charts {
@@ -59,4 +55,10 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
   -webkit-text-stroke: rgb(0, 0, 0) 1px;
+}
+
+@media screen and (max-width: 725px) {
+  .Search-input {
+    width: 100%;
+  }
 }
