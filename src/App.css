@@ -27,6 +27,7 @@
 
 .Chart {
   display: flex;
+  flex-basis: 30%;
   padding: 20px;
   width: 250px;
   margin: 20px;
@@ -66,6 +67,10 @@
 }
 
 @media screen and (max-width: 725px) {
+  .Chart {
+    flex-basis: inherit;
+  }
+  
   .Search-input {
     width: 100%;
   }
