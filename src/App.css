@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   padding: 30px;
+  scrollbar-width: none;
 }
 
 .Search {
@@ -23,6 +24,12 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+
+  /* animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-direction: normal;
+  animation-delay: 1000ms; */
+  animation: 0.5s ease-out normal slidein
 }
 
 .Chart {
@@ -51,7 +58,7 @@
 
 .Chart-info :nth-child(2) {
   color: rgb(26, 26, 26);
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 .Chart img {
@@ -66,11 +73,21 @@
   -webkit-text-stroke: rgb(0, 0, 0) 1px;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
 @media screen and (max-width: 725px) {
   .Chart {
     flex-basis: inherit;
   }
-  
+
   .Search-input {
     width: 100%;
   }
