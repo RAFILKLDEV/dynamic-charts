@@ -5,7 +5,7 @@ const Search = (props) => {
     <div className="Search">
       <input
         className="Search-input"
-        placeholder="Pesquise o nome do Chart"
+        placeholder="Pesquise o nome do Chart ou use # para Tag"
         value={props.search}
         onChange={(e) => props.setSearch(e.target.value)}
       ></input>

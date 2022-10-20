@@ -35,14 +35,22 @@
 
 .Chart:hover {
   border: solid 2px rgb(0, 0, 0);
+  box-sizing: border-box;
 }
 
 .Chart-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100px;
+  width: 100%;
   font-weight: 700;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+
+.Chart-info :nth-child(2) {
+  color: rgb(26, 26, 26);
+  font-size: 1.0rem;
 }
 
 .Chart img {
