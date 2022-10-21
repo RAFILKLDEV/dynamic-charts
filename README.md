@@ -17,6 +17,7 @@
 - `Pesquisa`: A barra de pesquisa renderiza os cards de forma dinamica por Nome ou Tag.
 - `Cards`: Os cards são renderizados de forma dinâmica através de um JSON local ou API.
 - `Css Animation`: Animação basica feita com CSS.
+- `Responsividade`: O projeto esta responsivo para dispositivos com telas menores.
 
 ### 📁 Acesso ao projeto
 
