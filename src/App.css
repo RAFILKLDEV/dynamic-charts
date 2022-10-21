@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  padding: 30px;
+  scrollbar-width: none;
+}
+
+.Search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.Search-input {
+  display: flex;
+  height: 30px;
+  padding: 0px;
+  width: 500px;
+  text-align: center;
+}
+
+.Charts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  /* animation-duration: 0.5s;
+  animation-name: slidein;
+  animation-direction: normal;
+  animation-delay: 1000ms; */
+  animation: 0.5s ease-out normal slidein
+}
+
+.Chart {
+  display: flex;
+  flex-basis: 30%;
+  padding: 20px;
+  width: 250px;
+  margin: 20px;
+  background-color: rgba(240, 248, 255, 0.05);
+}
+
+.Chart:hover {
+  border: solid 2px rgb(0, 0, 0);
+  box-sizing: border-box;
+}
+
+.Chart-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-weight: 700;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+
+.Chart-info :nth-child(2) {
+  color: rgb(26, 26, 26);
+  font-size: 1rem;
+}
+
+.Chart img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.Title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  -webkit-text-stroke: rgb(0, 0, 0) 1px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .Chart {
+    flex-basis: inherit;
+  }
+
+  .Search-input {
+    width: 100%;
+  }
+}
