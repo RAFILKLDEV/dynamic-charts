@@ -1,4 +1,6 @@
-# Resumo do projeto
+# Dynamic Charts
+
+### 🛠️ Resumo do Projeto
 
 - Esse projeto foi criado seguindo o desafio do <a href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt">FrontEnd Mentor</a>.
 - Decidi criar o projeto do zero sem utilizar os recursos do site para testar meus conhecimentos. 
