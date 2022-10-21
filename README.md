@@ -20,4 +20,4 @@
 
 ### 📁 Acesso ao projeto
 
-<a href="dynamic-charts-rafilkl.netlify.app/ "> Dynamic Charts </a>
+- <a href="dynamic-charts-rafilkl.netlify.app/ "> Dynamic Charts </a>
